@@ -1,7 +1,6 @@
 package com.example.persistence.projection;
 
-// Close projection
-public record PersonLocationDTO(
+public record EmployeeLocationDTO(
         String name,
         String phoneNumber,
         String street
